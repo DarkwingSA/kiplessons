@@ -1,0 +1,58 @@
+/* <link type="text/css" rel="stylesheet" href="stylesheetkiplessons.css"/> */
+
+html, body {
+	width=100%
+	height: 100%;
+        margin: 2;
+        padding: 2;
+	text-align: center;
+	font-family: Arial;
+	}
+
+select {
+font-size: 1.25em;
+}
+
+#map {
+        height: 70%;
+      }
+
+h1 {
+  font-family: Arial;
+  font-size: 1.1em;
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 1em;
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: .9em;
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-family: Arial;
+  font-size: 1em;
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 100%;
+

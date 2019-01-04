@@ -1,0 +1,72 @@
+<form name="Select Gauteng">
+   <select name="menu1" size="1" id="menu1" >
+      <option selected="selected" disabled="disabled" hidden="">Click on the map OR click here to select by suburb</option>
+      <!-- <optgroup label="Gauteng Centres"></optgroup> -->
+      <optgroup label="JHB East Rand">
+         <option value="GPboksburg.html">Benoni</option>
+         <option value="GPboksburg.html">Boksburg</option>
+         <option value="GPboksburg.html">Brakpan</option>
+         <option value="GPedenvale.html">Dowerglen</option>
+         <option value="GPedenvale.html">Eastleigh</option>
+         <option value="GPedenvale.html">Eden Glen</option>
+         <option value="GPedenvale.html">Edenvale</option>
+      </optgroup>
+      <optgroup label="JHB Central">
+         <option value="GPparkview.html">Houghton</option>
+         <option value="GPparkview.html">Parktown</option>
+         <option value="GPparkview.html">Parkview</option>
+         <option value="GPparkview.html">Parkwood</option>
+         <option value="GPparkview.html">Rosebank</option>
+         <option value="GPparkview.html">Saxonwold</option>
+      </optgroup>
+      <optgroup label="JHB North">
+         <option value="GPkyalami.html">Beaulieu</option>
+         <option value="GPnorthcliff.html">Blackheath</option>
+         <option value="GPbryanston.html">Broadacres</option>
+         <option value="GPbryanston.html">Bryanston</option>
+         <option value="GPkyalami.html">Carlswald</option>
+         <option value="GPbryanston.html">Cedar Lakes</option>
+         <option value="GPnorthcliff.html">Cresta</option>
+         <option value="GPbryanston.html">Fourways</option>
+         <option value="GPkyalami.html">Halfway Gardens</option>
+         <option value="GPkyalami.html">Kyalami</option>
+         <option value="GPkyalami.html">Midrand</option>
+         <option value="GPkyalami.html">Noordwyk</option>
+         <option value="GPnorthcliff.html">Northcliff</option>
+         <option value="GPkyalami.html">Vorna Valley</option>
+         <option value="GPkyalami.html">Waterfall</option>
+         
+      </optgroup>
+      <optgroup label="JHB South">
+         <option value="GPglenanda.html">Glenanda</option>
+         <option value="GPglenanda.html">Glenvista</option>
+         <option value="GPlenasia.html">Lenasia</option>
+         <option value="GPoakdene.html">Linmeyer</option>
+         <option value="GPoakdene.html">Oakdene</option>
+         <option value="GPoakdene.html">Regents Park</option>
+         <option value="GPoakdene.html">Robertsham</option>
+         <option value="GPoakdene.html">Rosettenville</option>
+         <option value="GPlenasia.html">SOWETO</option>
+         <option value="GPoakdene.html">Turffontein</option>
+      </optgroup>
+      <optgroup label="JHB West Rand">
+         <option value="GPruimsig.html">Featherbrooke</option>
+         <option value="GPruimsig.html">Radiokop</option>
+         <option value="GPruimsig.html">Roodepoort</option>
+         <option value="GPruimsig.html">Ruimsig</option>
+         <option value="GPruimsig.html">Wilgeheuwel</option>
+         <option value="GPruimsig.html">Wilro Park</option>
+      </optgroup>
+      <optgroup label="Pretoria">
+         <option value="GPpretoriagardens.html">Pretoria Gardens</option>
+      </optgroup>
+
+   </select>
+   <!-- Open menu options in same tab -->
+   <script type="text/javascript">
+      var urlmenu = document.getElementById('menu1');
+      urlmenu.onchange = function() {
+      location.href = this.options[this.selectedIndex].value;
+      };
+   </script>
+</form>

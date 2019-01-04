@@ -1,0 +1,6 @@
+Sitemap: http://kiplessons.co.za/sitemap.xml
+User-agent: *
+Disallow: /forum
+Disallow: /archive01
+Disallow: /archive02
+Disallow: /test
