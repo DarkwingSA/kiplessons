@@ -295,6 +295,9 @@
 		font-weight: bold;
 	}
 
+	.no-break {
+		white-space: pre;
+	}
 
 /* Generic */
 
