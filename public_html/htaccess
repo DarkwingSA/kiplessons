@@ -1,6 +1,3 @@
-## Redirects ##
-Redirect 301 /kiplessons.co.za/podcast.html https://solidgoldstudios.co.za/extralessons
-
 ## Redirect requests for a non-existant directory to a .php file of the same name ##
 ## RewriteEngine on
 ## RewriteCond %{REQUEST_FILENAME}.php -f
