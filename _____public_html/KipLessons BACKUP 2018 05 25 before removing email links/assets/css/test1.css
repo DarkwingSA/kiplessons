@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir:normal,bold");
+
+/* Applies to Google Maps bubble window */
+
+/* Style standard tags */
+
+body {
+	margin: 20px 10px 10px 10px;
+}
+
+a {
+	color: rgba(0,0,0,0.65);
+}
+
+a, img {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	text-decoration: none;
+}
+
+a:hover, img:hover {
+	border-color: rgba(245,106,106,1);
+	color: rgba(245,106,106,1);
+}
+
+div {
+	margin-bottom: 1em;
+}
+
+/* Style all bubble contents */
+
+bubble {
+	display: block !important;
+	color: rgba(0,0,0,0.65) !important;
+	font-family: "Avenir", sans-serif !important;
+	font-size: 10pt !important;
+	text-align: center !important;
+}
+
+/* Style individual paragraph and span elements */
+
+#header span {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	white-space: pre;
+	color: rgba(245,106,106,1);
+	font-weight: bold;
+}
+
+#header a:hover span {
+	color: rgba(245,106,106,0.7) !important;
+}
+
+#address span {
+	white-space: pre;
+}
+
+#contact span {
+	white-space: pre;
+	padding: 0 5px 0 5px;
+}
+
+#image span {
+	white-space: pre;
+}
+
+#image span img {
+	width: 250px !important;
+	margin-top: 0.25em !important;
+	border-radius: 10px !important;
+	border: solid 1px rgba(0,0,0,0.25) !important;
+}
+
+#image span img:hover {
+	border-color: rgba(245,106,106,1) !important;
+	color: rgba(245,106,106,1) !important;
+}
